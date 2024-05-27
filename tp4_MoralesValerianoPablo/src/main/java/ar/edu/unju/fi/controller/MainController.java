@@ -13,4 +13,24 @@ public class MainController {
 		return "index"; //lo que retorna tiene q estar en la carpeta de template entre comilals"nombreHTML"
 	}
 	
+	@GetMapping("/Alumno") // renderizado de la pagina, no siempre coinciden con el nombre de la pagina, es lo que escribo en el navegador
+	public String getAlumnoPage() {
+		return "alumno"; //lo que retorna tiene q estar en la carpeta de template entre comilals"nombreHTML"
+	}
+	
+	@GetMapping("/Carrera")
+	public String getCarreraPage() {
+		return "carrera";
+	}
+	
+	@GetMapping("/Docente")
+	public String getDocetePage() {
+		return "docente";
+	}
+	
+	@GetMapping("/Materia")
+	public String getMateriaPage() {
+		return "materia";
+	}
+	
 }
