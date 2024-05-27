@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+body{
+	font-family: Arial,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+/*
+( # ) = id
+( . ) = clase
+*/
+#encabezado{
+	background-color: e6ffe6;
+	color:	 #008000;
+	padding: 20px;
+	text-align: center;
+	background-color: #a3c2c2;
+}
+
+.menu{
+	text-align: left;
+	padding: 10px;
+	
+}
+
+.link{
+	    background-color: #d3d3d3; 
+    color: #000000; 
+    padding: 10px; 
+    border-radius: 5px; 
+    text-align: center; 
+}
+
+.principal {
+    background-color: #f2f2f2; 
+    padding: 20px; 
+    border-radius: 5px; 
+}
+
+.enlace{
+	font-family: "Calibri", sans-serif; 
+    font-weight: bold;
+}
+
+.titulo1{
+    font-family: 'Tahoma', sans-serif; 
+    text-align: center; 
+    color: navy; /* Color azul oscuro */
+    font-weight: bold;
+    font-size: 74px;
+}
+
+#subtitulo1{
+    font-family: 'Tahoma', sans-serif; 
+    text-align: center; 
+	font-style: italic;
+	font-size: 34px;
+}
+
+.titulo2{
+    font-family: 'Tahoma', sans-serif; 
+    text-align: center; 
+    color: navy; /* Color azul oscuro */
+}
+	
+.titulo3{
+    font-family: Calibri, sans-serif;
+    color: #006600; 
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center; 
+}	
+
+.parrafo{
+	margin-left: 50px; 
+    margin-right: 50px; 
+    font-family: Calibri, sans-serif;
+    text-align: justify;
+}	
+
+.lista{
+    font-family: Calibri, sans-serif; 
+    font-style: italic; 
+    margin-left: 70px;	
+}
+
+.tabla {
+    border-collapse: collapse; 
+    width: 100%; 
+}
+.txt {
+    border: 2px solid black; 
+    padding: 8px; 
+    text-align: left; 
+    font-size: 10px;
+}
+
+.titulo{
+	font-family: Calibri, sans-serif; 
+    font-style: italic; 
+    font-size: 14px;
+}
+
+#pie{
+	background-color: #f0f5f5; 
+    padding: 20px; 
+    border-radius: 5px; /* Añade bordes redondeados */
+}
+.final {
+    width: 60%; 
+    margin: 0 auto; /* Centra el elemento horizontalmente */
+    text-align: center; /* Opcional: centra el texto dentro del elemento */
+    border: 1px solid #ccc; /* Opcional: añade un borde para mejorar la apariencia */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opcional: añade una sombra para mejorar la apariencia */
+}
+
+#formulario{
+	background-color: #f0f5f5;
+	text-align: center;
+}
+.titulo4{
+	font-family: Calibri, sans-serif;
+	font-size: 24px;
+    color: #1f2e2e; 
+}
+
+.col-9{
+	 background-color: #e6f2ff; 
+}
