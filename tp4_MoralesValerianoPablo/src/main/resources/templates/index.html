@@ -1,50 +1,13 @@
 <!DOCTYPE html>
 <!-- comentario -->
-
 <html xmlns:th="https://www.thymeleaf.org" lang="es">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Inicio</title>
-		<!-- incorparar archovp css -->
-		<link th:rel="stylesheet" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"> 
-		<link rel= "stylesheet" href="css\estilos.css">
-		
-		</head>
+	<head data-th-replace="~{/layouts/header :: head}"></head>
 	<body> 		 
 		<div class="container-fluid ">
 			<div class="row">
-				<header>
-					<img alt="imagen no disponible" src="images/logo.jpg">
-					<h1>Facultad de Ingenieria  UNJu</h1><br>
-					<p>"Siendo proactivos, responsables de nuestro propio destino"</p>
-				</header>
+				<header data-th-replace="~{/layouts/header :: header}"></header>
 			</div>
-			<div class="row">
-				<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				    <div class="container-fluid">
-				       <div class="collapse navbar-collapse" id="navbarNav">
-				        <ul class="navbar-nav">
-				          <li class="navbar-nav mx-auto justify-content-center">
-				            <a class="nav-link" href="https://www.fi.unju.edu.ar/" target="_blank">Inicio</a>
-				          </li>
-				          <li class="nav-item">
-				            <a class="nav-link" href="https://www.fi.unju.edu.ar/institucional/historia.html" target="_blank">Acerca de</a>
-				          </li>
-				          <li class="nav-item">
-				            <a class="nav-link" href="https://www.fi.unju.edu.ar/carreras/carrera-pregrado.html" target="_blank">Carreras</a>
-				          </li>
-				          <li class="nav-item">
-				            <a class="nav-link" href="https://www.fi.unju.edu.ar/alumnos-noticias.html" target="_blank">Noticias</a>
-				          </li>
-				          <li class="nav-item">
-				            <a class="nav-link" href="https://www.fi.unju.edu.ar/servicios/telefonos.html" target="_blank">Contacto</a>
-				          </li>
-				        </ul>
-				      </div>
-				    </div>
-				  </nav>
-			</div>
+
 			
 			<div class="row"> 
 				<div class="col-3"> 
@@ -58,10 +21,10 @@
 						      <li><a href="https://www.fi.unju.edu.ar/institucional/reglamentos.html" target="_blank">Reglamentos</a></li>
 						      <li><a href="https://becas.unju.edu.ar/" target="_blank">Becas</a></li>
 						    </ul>
-					  </nav>
-						
+					  </nav>						
 						</aside>	
 				</div>
+				
 				<div class="col-9"> 
 						<h2>Sobre la Facultad</h2>
 						<p>La Universidad nace el 25 de mayo de 1972 como universidad provincial y al año siguiente se transforma en Universidad Nacional. Comienza a funcionar sobre la base de cuatro carreras: Ingeniería Agronómica, Ingeniería de Minas, Ingeniería Metalúrgica e Ingeniería Química. Su propósito fue apuntalar las actividades de explotación e industrialización de los recursos naturales de Jujuy. Las tres últimas carreras mencionadas pasan a constituir la actual Facultad de Ingeniería que, con el transcurso de los años, sumó a ellas un número importante de otras carreras.
@@ -100,31 +63,8 @@
 				</div>
 			</div>			
 		</div>
-
-	
-		<footer>
-			<p>Informacion de Contacto</p>
-			<ul>
-				<li>Ítalo Palanca Nº 10 </li>
-				<li>San Salvador de Jujuy - Jujuy - Argentina </li>
-				<li>info@fi.unju.edu.ar</li>
-			</ul>
-			<p>Redes Sociales</p>
-			<ul>
-				<li><a href="https://www.facebook.com/fiunju/">Facebook</a></li>
-				<li><a href="https://www.youtube.com/channel/UCgS9XJlKKSYI1oJ4lIOo77A">YouTube</a></li>
-				<li><a href="https://www.linkedin.com/school/facultad-de-ingenieria-unju">Linkedin</a></li>
-				<li><a href="https://www.instagram.com/fiunju/">Instagram</a></li>
-				
-			</ul>
-			<p>Copyright © 2014-2022 - Facultad de Ingeniería - UNJu</p>
-		</footer>
-		
-		
-		
-		
+		<footer data-th-replace="~{/layouts/footer :: footer}"></footer>
 		<!-- incorparar javascript -->
 		<script type="text/javascript" th:src="@{/webjars/bootstrap/js/bootstrap.bundle.min.js}"></script>
-	</body>
-	
+	</body>	
 </html>
